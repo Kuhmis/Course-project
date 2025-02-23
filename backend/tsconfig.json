@@ -8,6 +8,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "types": ["node", "express", "cors", "jsonwebtoken"],
     "baseUrl": "./",
     "paths": {
       "@controllers/*": ["src/controllers/*"],
