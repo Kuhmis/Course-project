@@ -21,7 +21,7 @@ app.use("/forms", formRoutes_1.default);
 app.use("/admin", adminRoutes_1.default);
 app.use(errorMiddleware_1.default);
 app.get("/", (req, res) => {
-    res.send("🚀 Form Builder API is running...");
+    res.send("Running...");
 });
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
